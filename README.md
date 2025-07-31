@@ -1,8 +1,8 @@
 ---
 
-![TireLife.AI Banner](.assets/banner.png)
+![TireLife.AI Banner](./assets/banner.png)
 
-<img src=".assets/tirelife_logo.png" alt="TireLife.AI Logo" width="120"/>
+<img src="./assets/tirelife_logo.png" alt="TireLife.AI Logo" width="120"/>
 
 
 # 🛞 TireLife.AI
