@@ -1,4 +1,4 @@
-
+�
 import gradio as gr
 from datetime import datetime
 
@@ -39,12 +39,16 @@ def predict_tire_health(mileage, pressure, last_replacement_date, driving_style)
 # Final Gradio 5.x layout
 with gr.Blocks() as demo:
     with gr.Column():
-        gr.Image(value="banner.png", show_label=False)
-        with gr.Row():
-            gr.Image(value="tirelife_logo.png", show_label=False, width=40)
-            gr.Markdown("## **TireLife.AI** — Predictive Tire Health Assistant")
+        # Banner: full-width, fixed height
+        gr.Image(value="banner.png", show_label=False, height=200, width=700)
 
-        gr.Markdown("Get smart tire wear, pressure, and replacement insights in seconds.")
+        # Logo + Title nicely aligned
+        with gr.Row():
+            gr.Image(value="tirelife_logo.png", show_label=False, height=100, width=200)
+            
+            gr.Markdown("## **🛞 TireLife.AI** — Predictive Tire Health Assistant")
+
+            gr.Markdown("Get smart tire wear, pressure, and replacement insights in seconds.")
 
         with gr.Row():
             mileage_input = gr.Number(label="Mileage Since Last Tire Change (km)", value=10000)
