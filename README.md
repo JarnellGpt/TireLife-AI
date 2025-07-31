@@ -1,16 +1,8 @@
-title: TireLife.AI
-emoji: 🛞
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-sdk_version: 5.39.0
-app_file: app.py
-pinned: false
 ---
 
-![TireLife.AI Banner](./banner.png)
+![TireLife.AI Banner](.assets/banner.png)
 
-<img src="./tirelife_logo.png" alt="TireLife.AI Logo" width="120"/>
+<img src=".assets/tirelife_logo.png" alt="TireLife.AI Logo" width="120"/>
 
 
 # 🛞 TireLife.AI
